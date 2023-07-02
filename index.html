@@ -4,54 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylsheet" href="styles.css" />
+    <title>Landing Page - Sea Turtles</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="header">
-        <div class="logo-text">Goldens 🐕</div>
+    <div class="header primary-color">
+        <div class="logo-text">Sea Turtles 🐢</div>
         <ul>
-            <li>About</li>
-            <li>Contact Us</li>
-            <li>Log In</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Log In</a></li>
         </ul>
     </div>
 
-    <div class="content-area">
+    <div class="content-area primary-color">
         <div class="hero-container">
-            <div class="into">
-                <h1>This website is awesome</h1>
-                <p>This is the subtext for this introduction. It's smaller than the text above it.</p>
-                <button>Sign up</button>
+            <div class="intro">
+                <h1>Learn more about sea turtles</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                <button class="sign-up-button">Sign up</button>
             </div>
-            <div class="hero-image"></div>
+            <image class="hero-image" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2019_18/2842271/190501-green-sea-turtle-mn-1440.jpg">
         </div>
     </div>
 
-    <div class="content-area">
+    <div class="container">
+        <div class="content-area-tiles">
 
-        <h2>Some random information.</h2>
-
-        <div class="image-tiles">
-            <div class="tile">
-
+            <h2>Our Turtle Family</h2>
+    
+            <div class="image-tiles">
+                <div class="tile">
+                    <div class="tile-img color1"></div>
+                    <div class="tile-text">Here you can see {Turtle 1} swimming</div> 
+                </div>
+                <div class="tile">
+                    <div class="tile-img color2"></div>
+                    <div class="tile-text">In this image, {Turtle 2} is eating some seaweed</div> 
+                </div>
+                <div class="tile">
+                    <div class="tile-img color3"></div>
+                    <div class="tile-text">{Turtle 3} loves diving underwater</div> 
+                </div>
+                <div class="tile">
+                    <div class="tile-img color4"></div>
+                    <div class="tile-text">Here {Turtle 4} is just chilling</div> 
+                </div>
             </div>
-            <div class="tile">
-                
-            </div>
-            <div class="tile">
-                
-            </div>
-            <div class="tile">
-                
-            </div>
+    
         </div>
-
+        <div class="content-area-quote">
+            <div class="quote-container">
+                <h3>Never discourage anyone who continually makes progress, no matter how slow.</h3>
+                <p>- Plato</p>
+            </div>
+            
+        </div>
+    
     </div>
-    <div class="content-area">
-        <h3>This is a very inspiring quote. It is supposed to be somewhat long, such that the text wraps the page.</h3>
-    </div>
-
 
     <div class="footer">
         <p>Copyright ©️ Rayyan Shaik 2023</p>
